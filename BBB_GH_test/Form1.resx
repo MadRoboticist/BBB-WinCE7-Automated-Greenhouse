@@ -1,0 +1,1505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Z1heat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 20pt</value>
+  </data>
+  <data name="Z1heat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 117</value>
+  </data>
+  <data name="Z1heat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 35</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Z1heat.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Z1heat.Text" xml:space="preserve">
+    <value>Heat</value>
+  </data>
+  <data name="&gt;&gt;Z1heat.Name" xml:space="preserve">
+    <value>Z1heat</value>
+  </data>
+  <data name="&gt;&gt;Z1heat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1heat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Z1heat.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Z1fans.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 20pt</value>
+  </data>
+  <data name="Z1fans.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 48</value>
+  </data>
+  <data name="Z1fans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 35</value>
+  </data>
+  <data name="Z1fans.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Z1fans.Text" xml:space="preserve">
+    <value>Fans</value>
+  </data>
+  <data name="&gt;&gt;Z1fans.Name" xml:space="preserve">
+    <value>Z1fans</value>
+  </data>
+  <data name="&gt;&gt;Z1fans.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1fans.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Z1fans.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Z1sprinklers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 20pt</value>
+  </data>
+  <data name="Z1sprinklers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 182</value>
+  </data>
+  <data name="Z1sprinklers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 35</value>
+  </data>
+  <data name="Z1sprinklers.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Z1sprinklers.Text" xml:space="preserve">
+    <value>Sprinklers</value>
+  </data>
+  <data name="&gt;&gt;Z1sprinklers.Name" xml:space="preserve">
+    <value>Z1sprinklers</value>
+  </data>
+  <data name="&gt;&gt;Z1sprinklers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1sprinklers.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Z1sprinklers.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Z1HMIN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 157</value>
+  </data>
+  <data name="Z1HMIN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 35</value>
+  </data>
+  <data name="Z1HMIN.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Z1HMIN.Name" xml:space="preserve">
+    <value>Z1HMIN</value>
+  </data>
+  <data name="&gt;&gt;Z1HMIN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1HMIN.Parent" xml:space="preserve">
+    <value>Z1settings</value>
+  </data>
+  <data name="&gt;&gt;Z1HMIN.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Z1TMIN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 92</value>
+  </data>
+  <data name="Z1TMIN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 35</value>
+  </data>
+  <data name="Z1TMIN.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Z1TMIN.Name" xml:space="preserve">
+    <value>Z1TMIN</value>
+  </data>
+  <data name="&gt;&gt;Z1TMIN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1TMIN.Parent" xml:space="preserve">
+    <value>Z1settings</value>
+  </data>
+  <data name="&gt;&gt;Z1TMIN.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Z1TMAX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 23</value>
+  </data>
+  <data name="Z1TMAX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 35</value>
+  </data>
+  <data name="Z1TMAX.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Z1TMAX.Name" xml:space="preserve">
+    <value>Z1TMAX</value>
+  </data>
+  <data name="&gt;&gt;Z1TMAX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1TMAX.Parent" xml:space="preserve">
+    <value>Z1settings</value>
+  </data>
+  <data name="&gt;&gt;Z1TMAX.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Z1temp.Name" xml:space="preserve">
+    <value>Z1temp</value>
+  </data>
+  <data name="&gt;&gt;Z1temp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1temp.Parent" xml:space="preserve">
+    <value>Z1info</value>
+  </data>
+  <data name="&gt;&gt;Z1temp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Z1humidity.Name" xml:space="preserve">
+    <value>Z1humidity</value>
+  </data>
+  <data name="&gt;&gt;Z1humidity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1humidity.Parent" xml:space="preserve">
+    <value>Z1info</value>
+  </data>
+  <data name="&gt;&gt;Z1humidity.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Z1Ttext.Name" xml:space="preserve">
+    <value>Z1Ttext</value>
+  </data>
+  <data name="&gt;&gt;Z1Ttext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1Ttext.Parent" xml:space="preserve">
+    <value>Z1info</value>
+  </data>
+  <data name="&gt;&gt;Z1Ttext.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Z1Htext.Name" xml:space="preserve">
+    <value>Z1Htext</value>
+  </data>
+  <data name="&gt;&gt;Z1Htext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1Htext.Parent" xml:space="preserve">
+    <value>Z1info</value>
+  </data>
+  <data name="&gt;&gt;Z1Htext.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Z1info.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="Z1info.Size" type="System.Drawing.Size, System.Drawing">
+    <value>577, 222</value>
+  </data>
+  <data name="Z1info.Text" xml:space="preserve">
+    <value>Zone 1 Info</value>
+  </data>
+  <data name="&gt;&gt;Z1info.Name" xml:space="preserve">
+    <value>Z1info</value>
+  </data>
+  <data name="&gt;&gt;Z1info.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1info.Parent" xml:space="preserve">
+    <value>Z1tabCtrl</value>
+  </data>
+  <data name="&gt;&gt;Z1info.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>auto</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Z1heatON.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 92</value>
+  </data>
+  <data name="Z1heatON.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 35</value>
+  </data>
+  <data name="Z1heatON.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Z1sprinklersON.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 157</value>
+  </data>
+  <data name="Z1sprinklersON.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 35</value>
+  </data>
+  <data name="Z1sprinklersON.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="Z1fansON.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 23</value>
+  </data>
+  <data name="Z1fansON.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 35</value>
+  </data>
+  <data name="Z1fansON.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 0</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 222</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>Z1settings</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Z1HMINnum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 157</value>
+  </data>
+  <data name="Z1HMINnum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="Z1HMINnum.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Z1HMINnum.Name" xml:space="preserve">
+    <value>Z1HMINnum</value>
+  </data>
+  <data name="&gt;&gt;Z1HMINnum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1HMINnum.Parent" xml:space="preserve">
+    <value>Z1settings</value>
+  </data>
+  <data name="&gt;&gt;Z1HMINnum.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Z1TMINnum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 92</value>
+  </data>
+  <data name="Z1TMINnum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="Z1TMINnum.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Z1TMINnum.Name" xml:space="preserve">
+    <value>Z1TMINnum</value>
+  </data>
+  <data name="&gt;&gt;Z1TMINnum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1TMINnum.Parent" xml:space="preserve">
+    <value>Z1settings</value>
+  </data>
+  <data name="&gt;&gt;Z1TMINnum.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Z1TMAXnum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 23</value>
+  </data>
+  <data name="Z1TMAXnum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="Z1TMAXnum.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Z1TMAXnum.Name" xml:space="preserve">
+    <value>Z1TMAXnum</value>
+  </data>
+  <data name="&gt;&gt;Z1TMAXnum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1TMAXnum.Parent" xml:space="preserve">
+    <value>Z1settings</value>
+  </data>
+  <data name="&gt;&gt;Z1TMAXnum.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Z1HMINtext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 134</value>
+  </data>
+  <data name="Z1HMINtext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 20</value>
+  </data>
+  <data name="Z1HMINtext.Text" xml:space="preserve">
+    <value>Humidity (%) to activate sprinklers (Humidity MIN)</value>
+  </data>
+  <data name="Z1HMINtext.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Z1HMINtext.Name" xml:space="preserve">
+    <value>Z1HMINtext</value>
+  </data>
+  <data name="&gt;&gt;Z1HMINtext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1HMINtext.Parent" xml:space="preserve">
+    <value>Z1settings</value>
+  </data>
+  <data name="&gt;&gt;Z1HMINtext.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Z1TMINtext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 69</value>
+  </data>
+  <data name="Z1TMINtext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 20</value>
+  </data>
+  <data name="Z1TMINtext.Text" xml:space="preserve">
+    <value>Temperature (F) to activate heat (Temp MIN)</value>
+  </data>
+  <data name="Z1TMINtext.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Z1TMINtext.Name" xml:space="preserve">
+    <value>Z1TMINtext</value>
+  </data>
+  <data name="&gt;&gt;Z1TMINtext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1TMINtext.Parent" xml:space="preserve">
+    <value>Z1settings</value>
+  </data>
+  <data name="&gt;&gt;Z1TMINtext.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Z1TMAXtext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 0</value>
+  </data>
+  <data name="Z1TMAXtext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 20</value>
+  </data>
+  <data name="Z1TMAXtext.Text" xml:space="preserve">
+    <value>Temperature (F) to activate fans (Temp MAX)</value>
+  </data>
+  <data name="Z1TMAXtext.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Z1TMAXtext.Name" xml:space="preserve">
+    <value>Z1TMAXtext</value>
+  </data>
+  <data name="&gt;&gt;Z1TMAXtext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1TMAXtext.Parent" xml:space="preserve">
+    <value>Z1settings</value>
+  </data>
+  <data name="&gt;&gt;Z1TMAXtext.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Z1settings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="Z1settings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>577, 222</value>
+  </data>
+  <data name="Z1settings.Text" xml:space="preserve">
+    <value>Zone 1 Settings</value>
+  </data>
+  <data name="&gt;&gt;Z1settings.Name" xml:space="preserve">
+    <value>Z1settings</value>
+  </data>
+  <data name="&gt;&gt;Z1settings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1settings.Parent" xml:space="preserve">
+    <value>Z1tabCtrl</value>
+  </data>
+  <data name="&gt;&gt;Z1settings.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Z1tabCtrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 0</value>
+  </data>
+  <data name="Z1tabCtrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>585, 251</value>
+  </data>
+  <data name="Z1tabCtrl.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Z1tabCtrl.Name" xml:space="preserve">
+    <value>Z1tabCtrl</value>
+  </data>
+  <data name="&gt;&gt;Z1tabCtrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1tabCtrl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Z1tabCtrl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Z1temp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 50pt</value>
+  </data>
+  <data name="Z1temp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 60</value>
+  </data>
+  <data name="Z1temp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 150</value>
+  </data>
+  <data name="&gt;&gt;Z1temp.Name" xml:space="preserve">
+    <value>Z1temp</value>
+  </data>
+  <data name="&gt;&gt;Z1temp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1temp.Parent" xml:space="preserve">
+    <value>Z1info</value>
+  </data>
+  <data name="&gt;&gt;Z1temp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Z1humidity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 50pt</value>
+  </data>
+  <data name="Z1humidity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 60</value>
+  </data>
+  <data name="Z1humidity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 150</value>
+  </data>
+  <data name="&gt;&gt;Z1humidity.Name" xml:space="preserve">
+    <value>Z1humidity</value>
+  </data>
+  <data name="&gt;&gt;Z1humidity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1humidity.Parent" xml:space="preserve">
+    <value>Z1info</value>
+  </data>
+  <data name="&gt;&gt;Z1humidity.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Z1Ttext.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 20pt</value>
+  </data>
+  <data name="Z1Ttext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 10</value>
+  </data>
+  <data name="Z1Ttext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 50</value>
+  </data>
+  <data name="Z1Ttext.Text" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="Z1Ttext.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Z1Ttext.Name" xml:space="preserve">
+    <value>Z1Ttext</value>
+  </data>
+  <data name="&gt;&gt;Z1Ttext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1Ttext.Parent" xml:space="preserve">
+    <value>Z1info</value>
+  </data>
+  <data name="&gt;&gt;Z1Ttext.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Z1Htext.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 20pt</value>
+  </data>
+  <data name="Z1Htext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 10</value>
+  </data>
+  <data name="Z1Htext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 50</value>
+  </data>
+  <data name="Z1Htext.Text" xml:space="preserve">
+    <value>Humidity</value>
+  </data>
+  <data name="Z1Htext.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Z1Htext.Name" xml:space="preserve">
+    <value>Z1Htext</value>
+  </data>
+  <data name="&gt;&gt;Z1Htext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1Htext.Parent" xml:space="preserve">
+    <value>Z1info</value>
+  </data>
+  <data name="&gt;&gt;Z1Htext.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="updateTMR.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="&gt;&gt;Z2info.Name" xml:space="preserve">
+    <value>Z2info</value>
+  </data>
+  <data name="&gt;&gt;Z2info.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2info.Parent" xml:space="preserve">
+    <value>Z2tabCtrl</value>
+  </data>
+  <data name="&gt;&gt;Z2info.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Z2settings.Name" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2settings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2settings.Parent" xml:space="preserve">
+    <value>Z2tabCtrl</value>
+  </data>
+  <data name="&gt;&gt;Z2settings.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Z2tabCtrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 300</value>
+  </data>
+  <data name="Z2tabCtrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>585, 250</value>
+  </data>
+  <data name="Z2tabCtrl.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Z2tabCtrl.Name" xml:space="preserve">
+    <value>Z2tabCtrl</value>
+  </data>
+  <data name="&gt;&gt;Z2tabCtrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2tabCtrl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Z2tabCtrl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Z2temp.Name" xml:space="preserve">
+    <value>Z2temp</value>
+  </data>
+  <data name="&gt;&gt;Z2temp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2temp.Parent" xml:space="preserve">
+    <value>Z2info</value>
+  </data>
+  <data name="&gt;&gt;Z2temp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Z2Htext.Name" xml:space="preserve">
+    <value>Z2Htext</value>
+  </data>
+  <data name="&gt;&gt;Z2Htext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2Htext.Parent" xml:space="preserve">
+    <value>Z2info</value>
+  </data>
+  <data name="&gt;&gt;Z2Htext.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Z2humidity.Name" xml:space="preserve">
+    <value>Z2humidity</value>
+  </data>
+  <data name="&gt;&gt;Z2humidity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2humidity.Parent" xml:space="preserve">
+    <value>Z2info</value>
+  </data>
+  <data name="&gt;&gt;Z2humidity.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Z2Ttext.Name" xml:space="preserve">
+    <value>Z2Ttext</value>
+  </data>
+  <data name="&gt;&gt;Z2Ttext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2Ttext.Parent" xml:space="preserve">
+    <value>Z2info</value>
+  </data>
+  <data name="&gt;&gt;Z2Ttext.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Z2info.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="Z2info.Size" type="System.Drawing.Size, System.Drawing">
+    <value>577, 221</value>
+  </data>
+  <data name="Z2info.Text" xml:space="preserve">
+    <value>Zone 2 Info</value>
+  </data>
+  <data name="&gt;&gt;Z2info.Name" xml:space="preserve">
+    <value>Z2info</value>
+  </data>
+  <data name="&gt;&gt;Z2info.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2info.Parent" xml:space="preserve">
+    <value>Z2tabCtrl</value>
+  </data>
+  <data name="&gt;&gt;Z2info.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Z2temp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 50pt</value>
+  </data>
+  <data name="Z2temp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 60</value>
+  </data>
+  <data name="Z2temp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 150</value>
+  </data>
+  <data name="&gt;&gt;Z2temp.Name" xml:space="preserve">
+    <value>Z2temp</value>
+  </data>
+  <data name="&gt;&gt;Z2temp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2temp.Parent" xml:space="preserve">
+    <value>Z2info</value>
+  </data>
+  <data name="&gt;&gt;Z2temp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Z2Htext.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 20pt</value>
+  </data>
+  <data name="Z2Htext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 10</value>
+  </data>
+  <data name="Z2Htext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 50</value>
+  </data>
+  <data name="Z2Htext.Text" xml:space="preserve">
+    <value>Humidity</value>
+  </data>
+  <data name="Z2Htext.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Z2Htext.Name" xml:space="preserve">
+    <value>Z2Htext</value>
+  </data>
+  <data name="&gt;&gt;Z2Htext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2Htext.Parent" xml:space="preserve">
+    <value>Z2info</value>
+  </data>
+  <data name="&gt;&gt;Z2Htext.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Z2humidity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 50pt</value>
+  </data>
+  <data name="Z2humidity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 60</value>
+  </data>
+  <data name="Z2humidity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 150</value>
+  </data>
+  <data name="&gt;&gt;Z2humidity.Name" xml:space="preserve">
+    <value>Z2humidity</value>
+  </data>
+  <data name="&gt;&gt;Z2humidity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2humidity.Parent" xml:space="preserve">
+    <value>Z2info</value>
+  </data>
+  <data name="&gt;&gt;Z2humidity.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Z2Ttext.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 20pt</value>
+  </data>
+  <data name="Z2Ttext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 10</value>
+  </data>
+  <data name="Z2Ttext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 50</value>
+  </data>
+  <data name="Z2Ttext.Text" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="Z2Ttext.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Z2Ttext.Name" xml:space="preserve">
+    <value>Z2Ttext</value>
+  </data>
+  <data name="&gt;&gt;Z2Ttext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2Ttext.Parent" xml:space="preserve">
+    <value>Z2info</value>
+  </data>
+  <data name="&gt;&gt;Z2Ttext.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Z2HMINnum.Name" xml:space="preserve">
+    <value>Z2HMINnum</value>
+  </data>
+  <data name="&gt;&gt;Z2HMINnum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2HMINnum.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2HMINnum.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Z2TMINnum.Name" xml:space="preserve">
+    <value>Z2TMINnum</value>
+  </data>
+  <data name="&gt;&gt;Z2TMINnum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2TMINnum.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2TMINnum.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAXnum.Name" xml:space="preserve">
+    <value>Z2TMAXnum</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAXnum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAXnum.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAXnum.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAX.Name" xml:space="preserve">
+    <value>Z2TMAX</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAX.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAX.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Z2HMINtext.Name" xml:space="preserve">
+    <value>Z2HMINtext</value>
+  </data>
+  <data name="&gt;&gt;Z2HMINtext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2HMINtext.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2HMINtext.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Z2TMINtext.Name" xml:space="preserve">
+    <value>Z2TMINtext</value>
+  </data>
+  <data name="&gt;&gt;Z2TMINtext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2TMINtext.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2TMINtext.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAXtext.Name" xml:space="preserve">
+    <value>Z2TMAXtext</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAXtext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAXtext.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAXtext.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Z2HMIN.Name" xml:space="preserve">
+    <value>Z2HMIN</value>
+  </data>
+  <data name="&gt;&gt;Z2HMIN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2HMIN.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2HMIN.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Z2TMIN.Name" xml:space="preserve">
+    <value>Z2TMIN</value>
+  </data>
+  <data name="&gt;&gt;Z2TMIN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2TMIN.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2TMIN.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Z2settings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="Z2settings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>577, 221</value>
+  </data>
+  <data name="Z2settings.Text" xml:space="preserve">
+    <value>Zone 2 Settings</value>
+  </data>
+  <data name="&gt;&gt;Z2settings.Name" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2settings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2settings.Parent" xml:space="preserve">
+    <value>Z2tabCtrl</value>
+  </data>
+  <data name="&gt;&gt;Z2settings.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Z2HMINnum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 157</value>
+  </data>
+  <data name="Z2HMINnum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="Z2HMINnum.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;Z2HMINnum.Name" xml:space="preserve">
+    <value>Z2HMINnum</value>
+  </data>
+  <data name="&gt;&gt;Z2HMINnum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2HMINnum.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2HMINnum.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Z2TMINnum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 92</value>
+  </data>
+  <data name="Z2TMINnum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="Z2TMINnum.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Z2TMINnum.Name" xml:space="preserve">
+    <value>Z2TMINnum</value>
+  </data>
+  <data name="&gt;&gt;Z2TMINnum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2TMINnum.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2TMINnum.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Z2TMAXnum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 23</value>
+  </data>
+  <data name="Z2TMAXnum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="Z2TMAXnum.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAXnum.Name" xml:space="preserve">
+    <value>Z2TMAXnum</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAXnum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAXnum.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAXnum.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Z2TMAX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 23</value>
+  </data>
+  <data name="Z2TMAX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 35</value>
+  </data>
+  <data name="Z2TMAX.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAX.Name" xml:space="preserve">
+    <value>Z2TMAX</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAX.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAX.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Z2HMINtext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 134</value>
+  </data>
+  <data name="Z2HMINtext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 20</value>
+  </data>
+  <data name="Z2HMINtext.Text" xml:space="preserve">
+    <value>Humidity (%) to activate sprinklers (Humidity MIN)</value>
+  </data>
+  <data name="Z2HMINtext.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Z2HMINtext.Name" xml:space="preserve">
+    <value>Z2HMINtext</value>
+  </data>
+  <data name="&gt;&gt;Z2HMINtext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2HMINtext.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2HMINtext.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Z2TMINtext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 69</value>
+  </data>
+  <data name="Z2TMINtext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 20</value>
+  </data>
+  <data name="Z2TMINtext.Text" xml:space="preserve">
+    <value>Temperature (F) to activate heat (Temp MIN)</value>
+  </data>
+  <data name="Z2TMINtext.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Z2TMINtext.Name" xml:space="preserve">
+    <value>Z2TMINtext</value>
+  </data>
+  <data name="&gt;&gt;Z2TMINtext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2TMINtext.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2TMINtext.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Z2TMAXtext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 0</value>
+  </data>
+  <data name="Z2TMAXtext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 20</value>
+  </data>
+  <data name="Z2TMAXtext.Text" xml:space="preserve">
+    <value>Temperature (F) to activate fans (Temp MAX)</value>
+  </data>
+  <data name="Z2TMAXtext.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAXtext.Name" xml:space="preserve">
+    <value>Z2TMAXtext</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAXtext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAXtext.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2TMAXtext.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Z2HMIN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 157</value>
+  </data>
+  <data name="Z2HMIN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 35</value>
+  </data>
+  <data name="Z2HMIN.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Z2HMIN.Name" xml:space="preserve">
+    <value>Z2HMIN</value>
+  </data>
+  <data name="&gt;&gt;Z2HMIN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2HMIN.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2HMIN.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Z2TMIN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 92</value>
+  </data>
+  <data name="Z2TMIN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 35</value>
+  </data>
+  <data name="Z2TMIN.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Z2TMIN.Name" xml:space="preserve">
+    <value>Z2TMIN</value>
+  </data>
+  <data name="&gt;&gt;Z2TMIN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2TMIN.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;Z2TMIN.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 221</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>Z2settings</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>auto</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Z2sprinklersON.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 157</value>
+  </data>
+  <data name="Z2sprinklersON.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 35</value>
+  </data>
+  <data name="Z2sprinklersON.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="Z2heatON.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 92</value>
+  </data>
+  <data name="Z2heatON.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 35</value>
+  </data>
+  <data name="Z2heatON.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Z2fansON.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 23</value>
+  </data>
+  <data name="Z2fansON.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 35</value>
+  </data>
+  <data name="Z2fansON.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Z2sprinklers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 20pt</value>
+  </data>
+  <data name="Z2sprinklers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 482</value>
+  </data>
+  <data name="Z2sprinklers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 35</value>
+  </data>
+  <data name="Z2sprinklers.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Z2sprinklers.Text" xml:space="preserve">
+    <value>Sprinklers</value>
+  </data>
+  <data name="&gt;&gt;Z2sprinklers.Name" xml:space="preserve">
+    <value>Z2sprinklers</value>
+  </data>
+  <data name="&gt;&gt;Z2sprinklers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2sprinklers.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Z2sprinklers.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Z2heat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 20pt</value>
+  </data>
+  <data name="Z2heat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 417</value>
+  </data>
+  <data name="Z2heat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 35</value>
+  </data>
+  <data name="Z2heat.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Z2heat.Text" xml:space="preserve">
+    <value>Heat</value>
+  </data>
+  <data name="&gt;&gt;Z2heat.Name" xml:space="preserve">
+    <value>Z2heat</value>
+  </data>
+  <data name="&gt;&gt;Z2heat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2heat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Z2heat.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Z2fans.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 20pt</value>
+  </data>
+  <data name="Z2fans.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 348</value>
+  </data>
+  <data name="Z2fans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 35</value>
+  </data>
+  <data name="Z2fans.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Z2fans.Text" xml:space="preserve">
+    <value>Fans</value>
+  </data>
+  <data name="&gt;&gt;Z2fans.Name" xml:space="preserve">
+    <value>Z2fans</value>
+  </data>
+  <data name="&gt;&gt;Z2fans.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2fans.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Z2fans.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Z1text.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 30pt</value>
+  </data>
+  <data name="Z1text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Z1text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 45</value>
+  </data>
+  <data name="Z1text.Text" xml:space="preserve">
+    <value>Zone 1</value>
+  </data>
+  <data name="&gt;&gt;Z1text.Name" xml:space="preserve">
+    <value>Z1text</value>
+  </data>
+  <data name="&gt;&gt;Z1text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1text.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Z1text.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Z2text.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 30pt</value>
+  </data>
+  <data name="Z2text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 300</value>
+  </data>
+  <data name="Z2text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 45</value>
+  </data>
+  <data name="Z2text.Text" xml:space="preserve">
+    <value>Zone 2</value>
+  </data>
+  <data name="&gt;&gt;Z2text.Name" xml:space="preserve">
+    <value>Z2text</value>
+  </data>
+  <data name="&gt;&gt;Z2text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2text.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Z2text.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Z1_DHT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 246</value>
+  </data>
+  <data name="Z1_DHT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;Z1_DHT.Name" xml:space="preserve">
+    <value>Z1_DHT</value>
+  </data>
+  <data name="&gt;&gt;Z1_DHT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z1_DHT.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Z1_DHT.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Z2_DHT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 266</value>
+  </data>
+  <data name="Z2_DHT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;Z2_DHT.Name" xml:space="preserve">
+    <value>Z2_DHT</value>
+  </data>
+  <data name="&gt;&gt;Z2_DHT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z2_DHT.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Z2_DHT.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.FormFactorShadowProperty" xml:space="preserve">
+    <value>BeagleBone WEC7 SDK</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Skin" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>50</value>
+  </metadata>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>638, 455</value>
+  </data>
+  <data name="&gt;&gt;updateTMR.Name" xml:space="preserve">
+    <value>updateTMR</value>
+  </data>
+  <data name="&gt;&gt;updateTMR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

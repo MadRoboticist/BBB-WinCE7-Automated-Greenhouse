@@ -1,0 +1,10 @@
+F:\Visual Studio 2008\Projects\BBB_GH_test\BBB_GH_test\bin\Release\BBB_GH_test.exe
+F:\Visual Studio 2008\Projects\BBB_GH_test\BBB_GH_test\bin\Release\BBB_GH_test.pdb
+F:\Visual Studio 2008\Projects\BBB_GH_test\BBB_GH_test\bin\Release\OpenNETCF.dll
+F:\Visual Studio 2008\Projects\BBB_GH_test\BBB_GH_test\bin\Release\OpenNETCF.Configuration.dll
+F:\Visual Studio 2008\Projects\BBB_GH_test\BBB_GH_test\obj\Release\ResolveAssemblyReference.cache
+F:\Visual Studio 2008\Projects\BBB_GH_test\BBB_GH_test\obj\Release\BBB_GH_test.Form1.resources
+F:\Visual Studio 2008\Projects\BBB_GH_test\BBB_GH_test\obj\Release\BBB_GH_test.Properties.Resources.resources
+F:\Visual Studio 2008\Projects\BBB_GH_test\BBB_GH_test\obj\Release\BBB_GH_test.csproj.GenerateResource.Cache
+F:\Visual Studio 2008\Projects\BBB_GH_test\BBB_GH_test\obj\Release\BBB_GH_test.exe
+F:\Visual Studio 2008\Projects\BBB_GH_test\BBB_GH_test\obj\Release\BBB_GH_test.pdb
