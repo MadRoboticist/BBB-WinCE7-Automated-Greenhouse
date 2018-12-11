@@ -1,4 +1,9 @@
-﻿using System;
+﻿/** @file GPIO.cs
+ *  @brief From example code in the BBB WEC7 BSP
+ *  https://archive.codeplex.com/?p=beaglebonebsp
+ * */
+
+using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Text;
@@ -160,8 +165,8 @@ namespace BEAGLEBONE.GPIO
         GPIO_MAX_NUM
     }
 
-    
 
+    /** @brief a class for GPIO reading and manipulation for the BBB */
     public class GPIO : StreamInterfaceDriver 
     {
 

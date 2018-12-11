@@ -1,4 +1,8 @@
-﻿using System;
+﻿/** @file PWM.cs
+ *  @brief From example code in the BBB WEC7 BSP
+ *  https://archive.codeplex.com/?p=beaglebonebsp
+ * */
+using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Text;
@@ -7,6 +11,7 @@ using OpenNETCF.IO;
 
 namespace BEAGLEBONE.PWM
 {
+    /** @brief A class for manipulation of the BBB's PWM channels */
     public class PWM : StreamInterfaceDriver
     {
 
@@ -79,7 +84,9 @@ namespace BEAGLEBONE.PWM
             // open the driver
             Open(FileAccess.ReadWrite, FileShare.ReadWrite);
         }
-
+        /// <summary>
+        /// Provides access to the PWM pins.
+        /// </summary>
         public PWM(string port) : base(port)
         {
             // open the driver

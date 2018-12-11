@@ -1,4 +1,8 @@
-﻿using System;
+﻿/** @file ADC.cs
+ *  @brief From example code in the BBB WEC7 BSP
+ *  https://archive.codeplex.com/?p=beaglebonebsp
+ * */
+using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Text;
@@ -7,8 +11,10 @@ using OpenNETCF.IO;
 
 namespace BEAGLEBONE.ADC
 {
+    /** @brief This is a class to read the BBB's ADC channels */
     public class ADC : StreamInterfaceDriver
     {
+        /** @brief Enumeration of the ADC channels on the BBB */
         public enum ADCChannel
         {
             AN0,
